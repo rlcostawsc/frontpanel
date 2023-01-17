@@ -1,6 +1,6 @@
 import {ButtonIcon} from './Btn_app.js';
 import{Brand_top_left} from './Header-Brand.js';
-import brand from './img/header_logo_trackeo.png';
+import brand from './../img/header_logo_trackeo.png';
 
 
 const iconApple=<a href="#">
@@ -23,13 +23,13 @@ const iconAndroid=
 
 export function Header (argument) {
 	return(
-		<div style={{border: '1px solid red'}}>
+		<header style={{border: '1px solid red'}}>
 		<Brand_top_left brand={brand} style={{width:'100px',height:'50px'}}/>
-		<div>
+		<div className="navApp">
 		<ButtonIcon icon={iconAndroid}/>
 		<ButtonIcon icon={iconApple}/>
 		</div>
-		</div>
+		</header>
 		);
 }
 

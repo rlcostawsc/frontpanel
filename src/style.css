@@ -6,7 +6,6 @@ body{
 }
 
 
-
 body{
 background-image: url('./img/bg-01.jpg') ; 
 background-repeat: no-repeat;
@@ -31,7 +30,7 @@ div > img{
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
-	/* border: 1px solid yellow; */
+	border: 1px solid yellow;
 }
 
 .panel{
@@ -42,6 +41,7 @@ div > img{
 	padding: 0px;
 	margin: 0px;
 	height: 70vh;
+	border: 1px solid blue;
 }
 .frm {
     display: flex;
