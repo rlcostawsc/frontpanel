@@ -1,8 +1,8 @@
-export function ButtonIcon (props) {
+export function ButtonIcon_a (props) {
 	return(
-		<button>
+		<a href={props.ancor}>
 			{props.icon}
-		</button>
+		</a>
 		); 
 }
 

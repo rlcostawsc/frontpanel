@@ -25,14 +25,18 @@ div > img{
 		height: 60px;
 }
 .navApp{
-	width: 70px;
+	width: 100px;
 	margin-right: 30px;
 	display: flex; 
 	justify-content: space-between;
 	align-items: center;
-	border: 1px solid yellow;
+/* 	border: 1px solid yellow; */
 }
-
+/* .navApp a{
+	padding: 0px;
+	background-color: rgba(0, 0, 0, 1.0)
+}
+ */
 .panel{
 	display: flex;
 	flex-direction: column;
@@ -41,7 +45,7 @@ div > img{
 	padding: 0px;
 	margin: 0px;
 	height: 70vh;
-	border: 1px solid blue;
+/* 	border: 1px solid blue; */
 }
 .frm {
     display: flex;
@@ -97,12 +101,15 @@ div > img{
 
 .frm-ctl{
 	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	width: 100%;
 	max-width: 350px;
+	/* border: 1px solid yellow; */
 }
 .frm-ctl *{
-	width: 100%;
 	border: 0px;
 	color: white;
 	font-size: 0.8em;
@@ -111,10 +118,8 @@ div > img{
     
 }
 .frm-ctl a{
-	width: 100%;
 	border: 0px;
 	color: white;
-	font-size: 0.6em;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
