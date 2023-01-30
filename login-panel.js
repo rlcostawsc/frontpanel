@@ -1,15 +1,16 @@
 import {Header} from './components/Header.js';
 import {ContentMain} from './components/panelContent.js';
-import {PanelMain} from './components/menu-side-bar/panel.js';
 
-import './panel.css';
+import './App.css';
+import './style.css';
 
-function App() {
+function LoginPanel() {
   return (
     <div>
-     <PanelMain/>
+     <Header/>
+     <ContentMain/>
     </div>
   );
 }
 
-export default App;
+export default LoginPanel;
